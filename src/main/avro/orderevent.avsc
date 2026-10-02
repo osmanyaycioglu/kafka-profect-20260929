@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "OrderEvent",
+  "namespace": "com.training.kafka.avro",
+  "fields": [
+    { "name": "orderId", "type": "string" },
+    { "name": "status", "type": "string" },
+    { "name": "amount", "type": "double" }
+  ]
+}
